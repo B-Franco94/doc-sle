@@ -487,8 +487,7 @@
    container and it is needed for the container images to get updates. The
    &suse; Registry as of now does not have a UI or a list of images, but all
    available images are listed in the examples in the
-   <link xlink:href="https://documentation.suse.com/sles/15-SP1/single-html/SLES-dockerquick/#Building-Pre-build-Images">Docker
-   Quickstart Guide</link>, which is also where you will find a description of
+   <xref linkend="Building-Pre-build-Images"/>, which is also where you will find a description of
    how the image names are derived.
   </para>
  </sect1>
@@ -565,7 +564,7 @@
     <emphasis role="strong">UI on top of your registry</emphasis>. It supports
     LDAP user authentication and allows easy private registry management. For
     further notable features of Portus, see:
-    <link xlink:href="http://port.us.org/features.html">http://port.us.org/features.html</link>
+    <link xlink:href="http://port.us.org/features.html" />
    </para>
    <para>
     Portus can be deployed using a standard Docker container, but also inside a
@@ -575,10 +574,8 @@
     <link xlink:href="http://port.us.org/docs/deploy.html" />.
    </para>
    <para>
-    For instructions on how to install Portus from the SUSE Container Registry
-    see the
-    <link xlink:href="https://documentation.suse.com/sles/12-SP4/html/SLES-all/cha-registry-installation.html#sec-docker-portus">&slsa;
-    Documentation</link>.
+    For instructions on how to install Portus from the SUSE Container Registry,
+    see <xref linkend="sec-docker-portus"/>.
    </para>
   </sect2>
  </sect1>
